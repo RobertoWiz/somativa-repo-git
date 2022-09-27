@@ -1,0 +1,26 @@
+image: python
+
+include:
+    - template: Security/SAST.gitlab-ci.yml
+
+stages:
+    - build
+    - test
+    - deploy
+
+build-job:
+    stage: build
+    script: 
+        - python3 -V
+
+test-count:
+    stage: test
+    script:
+        - more acao.html
+
+deploy-prod:
+    stage: deploy
+    script:
+        - echo "terminou"
+
+

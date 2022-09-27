@@ -1,0 +1,20 @@
+{
+  "version": "14.0.0",
+  "vulnerabilities": [ ],
+  "remediations": [],
+  "scan": {
+    "scanner": {
+      "id": "find_sec_bugs",
+      "name": "Find Security Bugs",
+      "url": "https://spotbugs.github.io",
+      "vendor": {
+        "name": "GitLab"
+      },
+      "version": "4.0.2"
+    },
+    "type": "sast",
+    "status": "success",
+    "start_time": "2022-09-26T21:37:00",
+    "end_time": "2022-09 26T21:38:00"
+  }
+}
